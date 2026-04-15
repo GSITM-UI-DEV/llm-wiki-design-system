@@ -33,19 +33,19 @@ wiki/
 
 ## 커버리지 (2026-04-15 기준)
 
-| 토픽 | 소스 수 |
-|------|--------|
-| architecture | 5 |
-| migration-strategy | 4 |
-| styles-tailwind | 7 |
-| core-components | 15 |
-| shadcn-components | 12 |
-| tui-components | 14 |
-| layout-components | 7 |
-| skeleton-components | 4 |
-| storybook | 3 |
-| testing | 2 |
-| **합계** | **118** |
+| 토픽                | 소스 수 |
+| ------------------- | ------- |
+| architecture        | 5       |
+| migration-strategy  | 4       |
+| styles-tailwind     | 7       |
+| core-components     | 15      |
+| shadcn-components   | 12      |
+| tui-components      | 14      |
+| layout-components   | 7       |
+| skeleton-components | 4       |
+| storybook           | 3       |
+| testing             | 2       |
+| **합계**            | **118** |
 
 ---
 
@@ -54,6 +54,25 @@ wiki/
 소스 프로젝트가 업데이트된 경우 Claude Code에서 실행:
 
 ```
-/wiki-compile 실행 시, 
-design-system-react에서 '.compile-state.json'에 있는 'last_commit" 값 이후 커밋된 파일만 골라서 처리하게 된다.
+/wiki-compile 실행 시,
+design-system-react에서 '.compile-state.json'에 있는
+'last_commit" 값 이후 커밋된 파일만 골라서 처리하게 된다.
+```
+
+---
+
+## WIKI 참조 시키기
+
+CLAUDE.md 상단에 위키 참조 내용 추가:
+
+```
+## 지식 위키
+
+이 프로젝트의 컴파일된 지식 위키가 있다. 코드베이스 탐색 전에 먼저 참조한다.
+
+- **위키 위치**: `../llm-wiki-design-system/wiki/`
+- **네비게이션 가이드**: `wiki/CONTEXT.md`
+- **전체 목차**: `wiki/INDEX.md`
+
+주요 토픽: architecture, migration-strategy, styles-tailwind, core-components, shadcn-components, tui-components, layout-components, testing
 ```
