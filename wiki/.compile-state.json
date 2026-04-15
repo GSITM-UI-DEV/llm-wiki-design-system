@@ -1,0 +1,21 @@
+{
+  "last_compiled": "2026-04-15",
+  "last_commit": {
+    "../design-system-react": "4b84f714ee32710d99db40314b544cd25bc079c5"
+  },
+  "topics": [
+    "architecture",
+    "migration-strategy",
+    "styles-tailwind",
+    "shadcn-components",
+    "tui-components",
+    "core-components",
+    "layout-components",
+    "skeleton-components",
+    "storybook",
+    "testing"
+  ],
+  "concepts": ["visual-equivalence"],
+  "source_locations": ["../design-system-react"],
+  "total_sources_scanned": 118
+}
