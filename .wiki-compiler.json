@@ -1,0 +1,46 @@
+{
+  "name": "Design System React",
+  "mode": "codebase",
+  "sources": [
+    {
+      "path": "../design-system-react",
+      "exclude": [
+        "node_modules",
+        "dist",
+        ".git",
+        "storybook-static",
+        "public",
+        ".vscode",
+        ".obsidian",
+        "mock"
+      ]
+    }
+  ],
+  "output": "./wiki",
+  "link_style": "obsidian",
+  "service_discovery": "manual",
+  "knowledge_files": [
+    "README.md",
+    "CLAUDE.md",
+    "docs/*.md",
+    "components.json",
+    "package.json",
+    "tsconfig.json",
+    "vite.config.js",
+    "src/styles/**/*.css",
+    "storybook/.storybook/**/*.ts"
+  ],
+  "deep_scan": true,
+  "code_extensions": [".ts", ".tsx", ".css", ".scss"],
+  "topic_hints": [
+    "shadcn-components",
+    "tui-components",
+    "layout-components",
+    "skeleton-components",
+    "core-components",
+    "styles-tailwind",
+    "architecture",
+    "migration-strategy",
+    "storybook"
+  ]
+}
