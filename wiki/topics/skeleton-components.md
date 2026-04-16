@@ -1,6 +1,6 @@
 ---
 topic: Skeleton Components
-last_compiled: 2026-04-15
+last_compiled: 2026-04-16
 source_count: 4
 status: active
 ---

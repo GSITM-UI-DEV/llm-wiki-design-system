@@ -1,6 +1,6 @@
 ---
 topic: Architecture
-last_compiled: 2026-04-15
+last_compiled: 2026-04-16
 source_count: 5
 status: active
 ---
@@ -13,7 +13,7 @@ status: active
 
 핵심 목표는 **기술 현대화 + UI 시각 동등성 유지**다. SCSS+styled-components → Tailwind CSS v4, JSX+PropTypes → TSX+TypeScript 전환 중이며, 전환 전후 화면이 픽셀 수준에서 동일해야 한다는 것이 협상 불가 원칙이다. 2026-03-20 기준 Phase 1(TSX 전환)은 완료됐고, Phase 2(Tailwind 전환)가 예정 중이다.
 
-기술 스택: React 19.2.3 / TypeScript 5.9.3 / Tailwind CSS v4.2.2 / Vite 5.4.21 / pnpm 9.0.0 / Storybook 8
+기술 스택: React 19.2.3 / TypeScript 5.9.3 / Tailwind CSS v4.2.2 / Vite 5.4.21 / pnpm 9.0.0 / Storybook 8 / react-hook-form ^7.72.1
 
 ## Current State [coverage: high -- 5 sources]
 
@@ -36,6 +36,7 @@ status: active
 - **TSX + TypeScript 전면 전환** — PropTypes(런타임 검증)의 한계, React 19에서 `defaultProps` 지원 약화.
 - **forwardRef + ...rest 필수 표준** — 모든 컴포넌트에 `forwardRef` 적용, `...rest`로 네이티브 HTML 속성 전달 보장.
 - **`cn()` 유틸 SSOT** — `src/lib/cn.ts` (clsx + tailwind-merge). 조건부 className 병합은 반드시 이 함수 사용.
+- **LLM 지식 위키 운영** — `../llm-wiki-design-system/wiki/`에 컴파일된 위키가 존재한다. Claude Code는 코드베이스 탐색 전 위키를 먼저 참조한다. 네비게이션 가이드: `wiki/CONTEXT.md`, 전체 목차: `wiki/INDEX.md`.
 - **git 명령 Claude 금지** — git add/commit/push 등 모든 git 작업은 사용자가 직접 수행.
 
 ## Directory Structure [coverage: high -- 5 sources]

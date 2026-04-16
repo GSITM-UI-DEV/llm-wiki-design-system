@@ -1,6 +1,6 @@
 ---
 concept: Visual Equivalence (시각 동등성)
-last_compiled: 2026-04-15
+last_compiled: 2026-04-16
 topics_connected: [architecture, migration-strategy, styles-tailwind, testing]
 status: active
 ---

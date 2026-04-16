@@ -1,7 +1,7 @@
 {
-  "last_compiled": "2026-04-15",
+  "last_compiled": "2026-04-16",
   "last_commit": {
-    "../design-system-react": "4b84f714ee32710d99db40314b544cd25bc079c5"
+    "../design-system-react": "d63920252f30cb9e0fed80eeb57c5dc431df7fce"
   },
   "topics": [
     "architecture",
@@ -17,5 +17,5 @@
   ],
   "concepts": ["visual-equivalence"],
   "source_locations": ["../design-system-react"],
-  "total_sources_scanned": 118
+  "total_sources_scanned": 122
 }
